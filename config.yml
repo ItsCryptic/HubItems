@@ -1,0 +1,46 @@
+hubitems:
+  settings:
+    clear_all: true
+    clear_on_join: true
+    give_on_join: true
+    clear_on_respawn: true
+    give_on_respawn: true
+    disable_drop: true
+    disable_move: true
+  items:
+    arrow:
+      slot: 34
+      material: arrow
+      display_name: '&dMagical Arrow'
+    tp_bow:
+      slot: 7
+      material: bow
+      display_name: '&5TP Bow'
+      lore:
+      - '&aShoot arrows to teleport!'
+      enchantments:
+        arrow_infinite: 1
+      unbreakable: true
+      hide_unbreakable: true
+      hide_attributes: true
+      hide_enchants: true
+    book:
+      slot: 3
+      material: book
+      display_name: '&aThe All-Mighty Book'
+      gui:
+        size: 9
+        title: '&aThe All-Mighty GUI'
+        items:
+          test1:
+            slot: 1
+            material: chest
+            display_name: '&dMagical Chest'
+          another_item:
+            slot: 2
+            material: paper
+            display_name: '&dMagical Paper'
+            lore:
+            - '&9&l&oall'
+            - '&ethe lore'
+            - '&ayou could ever want!'
